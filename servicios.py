@@ -57,4 +57,16 @@ def actualizar_estudiante ():
 def eliminar_estudiante ():
       
       estudiante_eliminar = input("Por favor la ID del estudiante a eliminar ")
+
+          for producto in inventario:
+        if producto["nombre"] == nombre:
+            return producto
+        
+        if len(producto_encontrado) == 0:
+            print("Producto " + nombre + " no encontrado. Nada que eliminar.")
+        return
+
+        lista_estduainte.remove(producto_encontrado)
+    print("Producto " + nombre + " eliminado del inventario.")
+
               
