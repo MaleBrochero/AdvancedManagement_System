@@ -32,10 +32,9 @@ while bienvenido == "1":
          servicios.mostar_estudiante()
 
     elif menu == "3" :
+
         servicios.actualizar_estudiante ()
         
-
-
     elif menu == "4" :
         servicios.eliminar_estudiante ()
 
